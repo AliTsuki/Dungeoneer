@@ -5,12 +5,12 @@
 	#include "Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl"
 
 	TEXTURE2D_SAMPLER2D(_MainTex, sampler_MainTex);
-	TEXTURE2D_SAMPLER2D(_MaskTex, sampler_MaskTex);
+	sampler2D _MaskTex;
 
 	float4 Frag(VaryingsDefault i) : SV_Target
 	{
 		float4 color = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.texcoord);
-		float4 mask = SAMPLE_TEXTURE2D(_MaskTex, sampler_MaskTex, i.texcoord);
+		float4 mask = tex2D(_MaskTex, i.texcoord);
 		color *= mask;
 		return color;
 	}

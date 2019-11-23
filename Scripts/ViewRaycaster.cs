@@ -110,16 +110,8 @@ public class ViewRaycaster : MonoBehaviour
                 // Draw debug rays on screen
                 if(this.DrawDebugRays == true)
                 {
-                    try
-                    {
-                        Debug.DrawLine(pos, hitMinus.point, Color.red);
-                        Debug.DrawLine(pos, hitPlus.point, Color.green);
-                    }
-                    catch(Exception e)
-                    {
-                        Debug.Log(e.ToString());
-                    }
-
+                    Debug.DrawLine(pos, hitMinus.point, Color.red);
+                    Debug.DrawLine(pos, hitPlus.point, Color.green);
                 }
                 // Store first hit data to angledverts array
                 angledverts[vertCount * 2].vert = this.transform.worldToLocalMatrix.MultiplyPoint3x4(hitMinus.point);
