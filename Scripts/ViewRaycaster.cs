@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 using UnityEngine;
 
@@ -12,12 +11,13 @@ public class ViewRaycaster : MonoBehaviour
     public float EdgePenetration = 0.4f;
     public float MaxRayDistance = 20;
     public bool DrawDebugRays = true;
+    public int NumRays = 0;
     // Private fields
     private Mesh mesh;
     private MeshFilter meshFilter;
 
     // Angled vertex struct
-    public struct AngledVert
+    private struct AngledVert
     {
         public Vector3 vert;
         public float angle;
@@ -25,15 +25,14 @@ public class ViewRaycaster : MonoBehaviour
     }
 
     // Struct containing a parent transform and all the vertices contained within the parent object
-    public struct VertPlusParentTransform
+    private struct VertPlusParentTransform
     {
         public Transform transform;
         public Vector3[] vertices;
     }
     
-
     // Start is called before the first frame update
-    public void Start()
+    private void Start()
     {
         //sceneObjects = FindGameObjectsWithLayer(layerMask.value);
         this.mesh = new Mesh();
@@ -41,7 +40,7 @@ public class ViewRaycaster : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void Update()
+    private void Update()
     {
         // Clear the mesh out
         this.mesh.Clear();
@@ -53,9 +52,10 @@ public class ViewRaycaster : MonoBehaviour
         {
             Vector3[] ObjectVertices = this.LightBlockingObjects[i].GetComponent<CompositeCollider2D>().CreateMesh(true, true).vertices;
             NumberOfTotalVertices += ObjectVertices.Length;
-            VertsPlusParentTransforms.Add(new VertPlusParentTransform(){ transform = this.LightBlockingObjects[i].transform, vertices = ObjectVertices});
+            VertsPlusParentTransforms.Add(new VertPlusParentTransform(){ transform = this.LightBlockingObjects[i].transform, vertices = ObjectVertices });
         }
         VertPlusParentTransform[] VertsPlusParentTransformsArray = VertsPlusParentTransforms.ToArray();
+        this.NumRays = NumberOfTotalVertices * 2;
         // Set up arrays
         AngledVert[] angledverts = new AngledVert[(NumberOfTotalVertices * 2)];
         Vector3[] verts = new Vector3[(NumberOfTotalVertices * 2) + 1];
