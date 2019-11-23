@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 using UnityEngine;
 
@@ -35,24 +36,24 @@ public class ViewRaycaster : MonoBehaviour
     public void Start()
     {
         //sceneObjects = FindGameObjectsWithLayer(layerMask.value);
-        mesh = new Mesh();
-        meshFilter = this.GetComponent<MeshFilter>();
+        this.mesh = new Mesh();
+        this.meshFilter = this.GetComponent<MeshFilter>();
     }
 
     // Update is called once per frame
     public void Update()
     {
         // Clear the mesh out
-        mesh.Clear();
+        this.mesh.Clear();
         // Create a new list for vertices and their parent transforms
         List<VertPlusParentTransform> VertsPlusParentTransforms = new List<VertPlusParentTransform>();
         // Get all the vertices we will be raycasting toward
         int NumberOfTotalVertices = 0;
-        for(int i = 0; i < LightBlockingObjects.Length; i++)
+        for(int i = 0; i < this.LightBlockingObjects.Length; i++)
         {
-            Vector3[] ObjectVertices = LightBlockingObjects[i].GetComponent<CompositeCollider2D>().CreateMesh(true, true).vertices;
+            Vector3[] ObjectVertices = this.LightBlockingObjects[i].GetComponent<CompositeCollider2D>().CreateMesh(true, true).vertices;
             NumberOfTotalVertices += ObjectVertices.Length;
-            VertsPlusParentTransforms.Add(new VertPlusParentTransform(){ transform = LightBlockingObjects[i].transform, vertices = ObjectVertices});
+            VertsPlusParentTransforms.Add(new VertPlusParentTransform(){ transform = this.LightBlockingObjects[i].transform, vertices = ObjectVertices});
         }
         VertPlusParentTransform[] VertsPlusParentTransformsArray = VertsPlusParentTransforms.ToArray();
         // Set up arrays
@@ -78,43 +79,52 @@ public class ViewRaycaster : MonoBehaviour
                 // Get this particular vertex's world position
                 Vector2 vertexWorldPos = VertsPlusParentTransformsArray[i].transform.localToWorldMatrix.MultiplyPoint3x4(vertexLocalPos);
                 // Get relative positions including offset
-                float YMinus = vertexWorldPos.y - pos.y - RayVertexOffset;
-                float YPlus = vertexWorldPos.y - pos.y + RayVertexOffset;
-                float XMinus = vertexWorldPos.x - pos.x - RayVertexOffset;
-                float XPlus = vertexWorldPos.x - pos.x + RayVertexOffset;
+                float YMinus = vertexWorldPos.y - pos.y - this.RayVertexOffset;
+                float YPlus = vertexWorldPos.y - pos.y + this.RayVertexOffset;
+                float XMinus = vertexWorldPos.x - pos.x - this.RayVertexOffset;
+                float XPlus = vertexWorldPos.x - pos.x + this.RayVertexOffset;
                 // Get angles
-                float angle1 = Mathf.Atan2((YMinus), (XMinus));
-                float angle2 = Mathf.Atan2((YPlus), (XPlus));
+                float angle1 = Mathf.Atan2(YMinus, XMinus);
+                float angle2 = Mathf.Atan2(YPlus, XPlus);
                 // Cast rays
-                RaycastHit2D hitMinus = Physics2D.Raycast(pos, new Vector2(XMinus, YMinus), MaxRayDistance, Layer);
-                RaycastHit2D hitPlus = Physics2D.Raycast(pos, new Vector2(XPlus, YPlus), MaxRayDistance, Layer);
-                // Get rays that time out and reset them to last position instead of zero position, or make rays penetrate walls some distance
+                RaycastHit2D hitMinus = Physics2D.Raycast(pos, new Vector2(XMinus, YMinus), this.MaxRayDistance, this.Layer);
+                RaycastHit2D hitPlus = Physics2D.Raycast(pos, new Vector2(XPlus, YPlus), this.MaxRayDistance, this.Layer);
+                // If rays time out, set them to where they would reach maximum instead of leaving them at zero position
+                // Otherwise add an edge penetration distance to ray hit, this lets you see the edge of the wall without seeing through to the other side
                 if(hitMinus.point == Vector2.zero)
                 {
-                    hitMinus.point = new Vector2(XMinus, YMinus).normalized * MaxRayDistance;
+                    hitMinus.point = new Vector2(XMinus, YMinus).normalized * this.MaxRayDistance;
                 }
                 else
                 {
-                    hitMinus.point += new Vector2(XMinus, YMinus).normalized * EdgePenetration;
+                    hitMinus.point += new Vector2(XMinus, YMinus).normalized * this.EdgePenetration;
                 }
                 if(hitPlus.point == Vector2.zero)
                 {
-                    hitPlus.point = new Vector2(XPlus, YPlus).normalized * MaxRayDistance;
+                    hitPlus.point = new Vector2(XPlus, YPlus).normalized * this.MaxRayDistance;
                 }
                 else
                 {
-                    hitPlus.point += new Vector2(XMinus, YMinus).normalized * EdgePenetration;
+                    hitPlus.point += new Vector2(XMinus, YMinus).normalized * this.EdgePenetration;
                 }
                 // Draw debug rays on screen
-                if(DrawDebugRays == true)
+                if(this.DrawDebugRays == true)
                 {
-                    Debug.DrawLine(pos, hitMinus.point, Color.red);
-                    Debug.DrawLine(pos, hitPlus.point, Color.green);
+                    try
+                    {
+                        Debug.DrawLine(pos, hitMinus.point, Color.red);
+                        Debug.DrawLine(pos, hitPlus.point, Color.green);
+                    }
+                    catch(Exception e)
+                    {
+                        Debug.Log(e.ToString());
+                    }
+
                 }
                 // Store first hit data to angledverts array
-                angledverts[(vertCount * 2)].vert = this.transform.worldToLocalMatrix.MultiplyPoint3x4(hitMinus.point);
-                angledverts[(vertCount * 2)].angle = angle1;
-                angledverts[(vertCount * 2)].uv = new Vector2(angledverts[(vertCount * 2)].vert.x, angledverts[(vertCount * 2)].vert.y);
+                angledverts[vertCount * 2].vert = this.transform.worldToLocalMatrix.MultiplyPoint3x4(hitMinus.point);
+                angledverts[vertCount * 2].angle = angle1;
+                angledverts[vertCount * 2].uv = new Vector2(angledverts[vertCount * 2].vert.x, angledverts[vertCount * 2].vert.y);
                 // Store second hit data to angledverts array
                 angledverts[(vertCount * 2) + 1].vert = this.transform.worldToLocalMatrix.MultiplyPoint3x4(hitPlus.point);
                 angledverts[(vertCount * 2) + 1].angle = angle2;
@@ -149,9 +159,9 @@ public class ViewRaycaster : MonoBehaviour
         }
         int[] tris = triangleList.ToArray();
         // Assign verts, uvs, and triangles to mesh
-        mesh.vertices = verts;
-        mesh.uv = uvs;
-        mesh.triangles = tris;
-        meshFilter.mesh = mesh;
+        this.mesh.vertices = verts;
+        this.mesh.uv = uvs;
+        this.mesh.triangles = tris;
+        this.meshFilter.mesh = this.mesh;
     }
 }

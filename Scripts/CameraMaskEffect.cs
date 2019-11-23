@@ -1,18 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
+
 using UnityEngine;
+using UnityEngine.Rendering.PostProcessing;
 
-public class CameraMaskEffect : MonoBehaviour
+[Serializable]
+[PostProcess(typeof(MaskEffectRenderer), PostProcessEvent.AfterStack, "Ali/CameraMaskEffectShader")]
+public sealed class CameraMaskEffect : PostProcessEffectSettings
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public TextureParameter MaskTex = new TextureParameter();
+}
 
-    // Update is called once per frame
-    void Update()
+public sealed class MaskEffectRenderer : PostProcessEffectRenderer<CameraMaskEffect>
+{
+    public override void Render(PostProcessRenderContext context)
     {
-        
+        PropertySheet sheet = context.propertySheets.Get(Shader.Find("Ali/CameraMaskEffectShader"));
+        sheet.properties.SetTexture("_MaskTex", this.settings.MaskTex);
+        context.command.BlitFullscreenTriangle(context.source, context.destination, sheet, 0);
     }
 }
