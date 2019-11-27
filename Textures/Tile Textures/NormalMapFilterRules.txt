@@ -1,0 +1,7 @@
+Invert Height: No
+Blur: 0.3
+Detail Scale: 30%
+Contrast Details:
+	Low: 5%
+	Medium: 80%
+	High: 50%
