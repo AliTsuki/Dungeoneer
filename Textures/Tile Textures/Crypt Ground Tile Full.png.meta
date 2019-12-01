@@ -1,154 +1,154 @@
 fileFormatVersion: 2
-guid: b133c92ffd637fd4dbc926943c453bb5
+guid: e5bcc44aeb4b3474aac8ae8a7b8fab61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4035925167341562578
-    second: Sandstone Tile Full_NW
+      213: 9156227577462253634
+    second: Sandstone Ground Tile Full_Edge_North
   - first:
-      213: 8220394844793698886
-    second: Sandstone Tile Full_N
+      213: 1808527432814821758
+    second: Sandstone Ground Tile Full_Edge_East
   - first:
-      213: -7660988968069918163
-    second: Sandstone Tile Full_NE
+      213: 5589299496529567688
+    second: Sandstone Ground Tile Full_Edge_South
   - first:
-      213: -5843496495269857468
-    second: Sandstone Tile Full_W
+      213: -360791111845519
+    second: Sandstone Ground Tile Full_Edge_West
   - first:
-      213: -4711370469018692664
-    second: Sandstone Tile Full_Mid0
+      213: 6217929284364840133
+    second: Sandstone Ground Tile Full_Corner_NorthWest
   - first:
-      213: -919951165031826096
-    second: Sandstone Tile Full_E
+      213: 2903016899169951169
+    second: Sandstone Ground Tile Full_Corner_NorthEast
   - first:
-      213: 2988266196084445382
-    second: Sandstone Tile Full_SW
+      213: -3902916186202065751
+    second: Sandstone Ground Tile Full_Corner_SouthEast
   - first:
-      213: 7654418438646232443
-    second: Sandstone Tile Full_S
+      213: 8249445457116315679
+    second: Sandstone Ground Tile Full_Corner_SouthWest
   - first:
-      213: -8552138310000124663
-    second: Sandstone Tile Full_SE
+      213: -8749661118950448275
+    second: Sandstone Ground Tile Full_Single_North
   - first:
-      213: -8478989915982286965
-    second: Sandstone Tile Full_1VN
+      213: -8128693760420456239
+    second: Sandstone Ground Tile Full_Single_Vertical
   - first:
-      213: -5491054970047706285
-    second: Sandstone Tile Full_1VMid
+      213: -243711754583313956
+    second: Sandstone Ground Tile Full_Single_South
   - first:
-      213: -2344244161279152423
-    second: Sandstone Tile Full_1VS
+      213: 876416141462681983
+    second: Sandstone Ground Tile Full_Single_West
   - first:
-      213: 5153572680612634394
-    second: Sandstone Tile Full_1HW
+      213: -7697348631869167565
+    second: Sandstone Ground Tile Full_Single_Horizontal
   - first:
-      213: 5287526711233488464
-    second: Sandstone Tile Full_1HMid
+      213: -6497380038541728079
+    second: Sandstone Ground Tile Full_Single_East
   - first:
-      213: -899854296134289388
-    second: Sandstone Tile Full_1HE
+      213: 9167407682577960128
+    second: Sandstone Ground Tile Full_Single
   - first:
-      213: 2361051308661793337
-    second: Sandstone Tile Full_InNW
+      213: 7269576102394403336
+    second: Sandstone Ground Tile Full_Mid_0
   - first:
-      213: -6294337077191476380
-    second: Sandstone Tile Full_InN
+      213: 6849246510913726317
+    second: Sandstone Ground Tile Full_Mid_1
   - first:
-      213: -725460723029713631
-    second: Sandstone Tile Full_InNE
+      213: 212994309444410221
+    second: Sandstone Ground Tile Full_Mid_2
   - first:
-      213: -1356163902309412752
-    second: Sandstone Tile Full_InW
+      213: 1890031871566478889
+    second: Sandstone Ground Tile Full_Edge_North_Inner_Both
   - first:
-      213: 3103874966918853943
-    second: Sandstone Tile Full_InMid
+      213: 2414206144203102043
+    second: Sandstone Ground Tile Full_Edge_East_Inner_Both
   - first:
-      213: 4376636187249615619
-    second: Sandstone Tile Full_InE
+      213: -6000043687475649078
+    second: Sandstone Ground Tile Full_Edge_South_Inner_Both
   - first:
-      213: -4477124641460332059
-    second: Sandstone Tile Full_InSW
+      213: -2263936634972999874
+    second: Sandstone Ground Tile Full_Edge_West_Inner_Both
   - first:
-      213: -7936920382338817444
-    second: Sandstone Tile Full_InS
+      213: 6195311410319222163
+    second: Sandstone Ground Tile Full_Inner_4_All
   - first:
-      213: 6049601591229740390
-    second: Sandstone Tile Full_InSE
+      213: -1183355898729092687
+    second: Sandstone Ground Tile Full_Corner_NorthWest_Inner
   - first:
-      213: 1126134133688172453
-    second: Sandstone Tile Full_Single
+      213: 9098255069747145008
+    second: Sandstone Ground Tile Full_Corner_NorthEast_Inner
   - first:
-      213: -7682344722955613225
-    second: Sandstone Tile Full_InOppNWSE
+      213: 2993084399680681604
+    second: Sandstone Ground Tile Full_Corner_SouthEast_Inner
   - first:
-      213: -7682344722955613225
-    second: Sandstone Tile Full_InOppNESW
+      213: 7055915010710288139
+    second: Sandstone Ground Tile Full_Corner_SouthWest_Inner
   - first:
-      213: 798915920772034172
-    second: Sandstone Tile Full_InTripNE
+      213: -4183897730781385655
+    second: Sandstone Ground Tile Full_Edge_North_Inner_West
   - first:
-      213: 1093495477911657537
-    second: Sandstone Tile Full_InTripSE
+      213: 8189886656362029974
+    second: Sandstone Ground Tile Full_Edge_North_Inner_East
   - first:
-      213: -4280496744417520766
-    second: Sandstone Tile Full_InTripSW
+      213: 5085602143837518110
+    second: Sandstone Ground Tile Full_Edge_East_Inner_North
   - first:
-      213: 555409867626282212
-    second: Sandstone Tile Full_InTripNW
+      213: 2474395022351082767
+    second: Sandstone Ground Tile Full_Edge_East_Inner_South
   - first:
-      213: -2078571388194688687
-    second: Sandstone Tile Full_NWIn
+      213: 6539365006412945639
+    second: Sandstone Ground Tile Full_Edge_South_Inner_East
   - first:
-      213: 6371151280031062624
-    second: Sandstone Tile Full_SWIn
+      213: -5801447093852185928
+    second: Sandstone Ground Tile Full_Edge_South_Inner_West
   - first:
-      213: -771828598172389269
-    second: Sandstone Tile Full_SEIn
+      213: 4512136881190959664
+    second: Sandstone Ground Tile Full_Edge_West_Inner_South
   - first:
-      213: 6362783207672108427
-    second: Sandstone Tile Full_NEIn
+      213: 8401640017955007666
+    second: Sandstone Ground Tile Full_Edge_West_Inner_North
   - first:
-      213: -5962136019297342410
-    second: Sandstone Tile Full_NInW
+      213: 2035112074399515360
+    second: Sandstone Ground Tile Full_Inner_NorthWest
   - first:
-      213: 1894529208983498808
-    second: Sandstone Tile Full_NInE
+      213: -4903063931306808581
+    second: Sandstone Ground Tile Full_Inner_NorthEast
   - first:
-      213: 7068970582035875581
-    second: Sandstone Tile Full_NInBoth
+      213: 116234314108868233
+    second: Sandstone Ground Tile Full_Inner_SouthWest
   - first:
-      213: 1829724263380282387
-    second: Sandstone Tile Full_SInW
+      213: -6601836027281201620
+    second: Sandstone Ground Tile Full_Inner_SouthEast
   - first:
-      213: -6509306685428707078
-    second: Sandstone Tile Full_SInE
+      213: 5736297582115230721
+    second: Sandstone Ground Tile Full_Inner_2_NorthEast_SouthWest
   - first:
-      213: 2287097813059009539
-    second: Sandstone Tile Full_SInBoth
+      213: 6364557985114279205
+    second: Sandstone Ground Tile Full_Inner_2_NorthWest_SouthEast
   - first:
-      213: -2062510613771654795
-    second: Sandstone Tile Full_WInN
+      213: 8869245865763985547
+    second: Sandstone Ground Tile Full_Inner_2_North
   - first:
-      213: -1309460339915243917
-    second: Sandstone Tile Full_WInS
+      213: -1135172671574193234
+    second: Sandstone Ground Tile Full_Inner_2_East
   - first:
-      213: 6025882349644523889
-    second: Sandstone Tile Full_WInBoth
+      213: -4988625295899326072
+    second: Sandstone Ground Tile Full_Inner_2_South
   - first:
-      213: -5901270751523780705
-    second: Sandstone Tile Full_EInN
+      213: 4028875011258804003
+    second: Sandstone Ground Tile Full_Inner_2_West
   - first:
-      213: -5258228076773434749
-    second: Sandstone Tile Full_EInS
+      213: -6720180832067982481
+    second: Sandstone Ground Tile Full_Inner_3_NorthWest
   - first:
-      213: 5631641726008039428
-    second: Sandstone Tile Full_EInBoth
+      213: 5344305395315538751
+    second: Sandstone Ground Tile Full_Inner_3_NorthEast
   - first:
-      213: 1126134133688172453
-    second: Sandstone Tile Full_Mid1
+      213: -7886231285749315434
+    second: Sandstone Ground Tile Full_Inner_3_SouthEast
   - first:
-      213: -7682344722955613225
-    second: Sandstone Tile Full_Mid2
+      213: 8013888509867258408
+    second: Sandstone Ground Tile Full_Inner_3_SouthWest
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -167,7 +167,7 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
@@ -183,7 +183,7 @@ TextureImporter:
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -195,7 +195,7 @@ TextureImporter:
   spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-  alphaUsage: 0
+  alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
@@ -233,32 +233,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sandstone Tile Full_NW
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6be2bf7448b6cd84ebc337491456aeae
-      internalID: -4035925167341562578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_N
+      name: Sandstone Ground Tile Full_Edge_North
       rect:
         serializedVersion: 2
         x: 32
-        y: 224
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -268,18 +247,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49039a39eeaf61f4b9a9703ce27346ce
-      internalID: 8220394844793698886
+      spriteID: f5263825894b3d94980598bd2287799f
+      internalID: 9156227577462253634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_NE
+      name: Sandstone Ground Tile Full_Edge_East
       rect:
         serializedVersion: 2
         x: 64
-        y: 224
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -289,39 +268,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa1096466f0e75d4fb7b84bb0fd93523
-      internalID: -7660988968069918163
+      spriteID: a3d810ce04d43ed419aa424d36f044eb
+      internalID: 1808527432814821758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_W
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07f4a2ae1c0da3442a1293030f44c44e
-      internalID: -5843496495269857468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_Mid0
+      name: Sandstone Ground Tile Full_Edge_South
       rect:
         serializedVersion: 2
         x: 32
-        y: 192
+        y: 416
         width: 32
         height: 32
       alignment: 0
@@ -331,39 +289,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce62d709bb84464e96dfc1c11ebc735
-      internalID: -4711370469018692664
+      spriteID: ea33218470d3ff74982ba818a0dc8810
+      internalID: 5589299496529567688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_E
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd047f60d425d0844bc1e88574783740
-      internalID: -919951165031826096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SW
+      name: Sandstone Ground Tile Full_Edge_West
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -373,18 +310,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99482f4caa1e6f6448a86509fc0e1dfb
-      internalID: 2988266196084445382
+      spriteID: 318b8b01675d29844ab5c46a8cc1a13c
+      internalID: -360791111845519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_S
+      name: Sandstone Ground Tile Full_Corner_NorthWest
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
+        x: 0
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -394,18 +331,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2abc93a6e4df6e4fb7af2924d3c3d6a
-      internalID: 7654418438646232443
+      spriteID: 495a4001f0c8162438f2931d9a1a1302
+      internalID: 6217929284364840133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_SE
+      name: Sandstone Ground Tile Full_Corner_NorthEast
       rect:
         serializedVersion: 2
         x: 64
-        y: 160
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -415,18 +352,60 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2edd1313a9d5bb945a9ee1c96bc44c97
-      internalID: -8552138310000124663
+      spriteID: a9a0a41ae31651c469cc5ac6b8879724
+      internalID: 2903016899169951169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1VN
+      name: Sandstone Ground Tile Full_Corner_SouthEast
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128e9e0e75b8b1b4cabd0475eeecf9fb
+      internalID: -3902916186202065751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Corner_SouthWest
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb85023e1c4e5464998ba93964a9b984
+      internalID: 8249445457116315679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Single_North
       rect:
         serializedVersion: 2
         x: 96
-        y: 224
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -436,18 +415,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc74f5b40b1346d4681c2c9ab7e6bb8a
-      internalID: -8478989915982286965
+      spriteID: f72ef4b28193ab9448db35522b3b1f4e
+      internalID: -8749661118950448275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1VMid
+      name: Sandstone Ground Tile Full_Single_Vertical
       rect:
         serializedVersion: 2
         x: 96
-        y: 192
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -457,18 +436,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5fb447d45eb3f40926cb87914208cd
-      internalID: -5491054970047706285
+      spriteID: 0b335a4c54a072b4bb8bf8e816a47c42
+      internalID: -8128693760420456239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1VS
+      name: Sandstone Ground Tile Full_Single_South
       rect:
         serializedVersion: 2
         x: 96
-        y: 160
+        y: 416
         width: 32
         height: 32
       alignment: 0
@@ -478,18 +457,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2349db559b5e7f04e8dc062ce2aef221
-      internalID: -2344244161279152423
+      spriteID: 5494ba5be13bb3e4285005954a2ab0f8
+      internalID: -243711754583313956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1HW
+      name: Sandstone Ground Tile Full_Single_West
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
+        y: 384
         width: 32
         height: 32
       alignment: 0
@@ -499,18 +478,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 014770a7dd6559446adaf1703571dde7
-      internalID: 5153572680612634394
+      spriteID: 5f2b90c9a5e2cd64592ff14a6358b4e7
+      internalID: 876416141462681983
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1HMid
+      name: Sandstone Ground Tile Full_Single_Horizontal
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 384
         width: 32
         height: 32
       alignment: 0
@@ -520,18 +499,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cd7209369ad75f4ca4c62971d794e19
-      internalID: 5287526711233488464
+      spriteID: 3b1578893a4e16d4f8cc481cf7ccf671
+      internalID: -7697348631869167565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_1HE
+      name: Sandstone Ground Tile Full_Single_East
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 384
         width: 32
         height: 32
       alignment: 0
@@ -541,18 +520,165 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6761160e6df1ca94a897f5259bb74db0
-      internalID: -899854296134289388
+      spriteID: e5e564e9f9f1cd34380659b33cd7c78c
+      internalID: -6497380038541728079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_InNW
+      name: Sandstone Ground Tile Full_Single
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4576b771d501c8f4c9516e427eb02da1
+      internalID: 9167407682577960128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Mid_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa29c3c9a7d5d9441884d669808acd9a
+      internalID: 7269576102394403336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Mid_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 073a3ff0bf3aa1042a4ebb55867ba36e
+      internalID: 6849246510913726317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Mid_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a259531bd1f0c545a8d5ec3af1c700a
+      internalID: 212994309444410221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_North_Inner_Both
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c5a8abaeed3424888cda477333f69b
+      internalID: 1890031871566478889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_East_Inner_Both
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1f646eb85d24148b18ac59be626c3d
+      internalID: 2414206144203102043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_South_Inner_Both
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53296635c3cd141ad1bed0ce074476
+      internalID: -6000043687475649078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_West_Inner_Both
       rect:
         serializedVersion: 2
         x: 128
-        y: 224
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -562,14 +688,539 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b2c1c0a3aa37b240866df09212fddea
-      internalID: 2361051308661793337
+      spriteID: 44c462ff67c6d5f4bb6c7f379af819e2
+      internalID: -2263936634972999874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_InN
+      name: Sandstone Ground Tile Full_Inner_4_All
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35bfe01ca2bea464380a64d916416b04
+      internalID: 6195311410319222163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Corner_NorthWest_Inner
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbb588532c2426448b1da192ca88029
+      internalID: -1183355898729092687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Corner_NorthEast_Inner
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6678210e5696d4cbb475231a7c51c2
+      internalID: 9098255069747145008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Corner_SouthEast_Inner
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f95577dedb00143bd3474c2919e564
+      internalID: 2993084399680681604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Corner_SouthWest_Inner
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d36121b996f4414c81282b09fdcf424
+      internalID: 7055915010710288139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_North_Inner_West
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2752b48a451802f4e9582f7ec9d10fdc
+      internalID: -4183897730781385655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_North_Inner_East
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e903f49609767e4491c67f5202d7214
+      internalID: 8189886656362029974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_East_Inner_North
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5a509b0cdb7d5438b26fa64c6586cf
+      internalID: 5085602143837518110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_East_Inner_South
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ed798b90f21e64b80aca0f101549fe
+      internalID: 2474395022351082767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_South_Inner_East
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9b6f76f4917cf4eb1226fb45c1fa47
+      internalID: 6539365006412945639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_South_Inner_West
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72fc95e11cba654caf29af6b05ccb7b
+      internalID: -5801447093852185928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_West_Inner_South
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f6ce36981090946845aa57c2107c85
+      internalID: 4512136881190959664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Edge_West_Inner_North
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e07eeb3ca95f8c49ae830180c0c06b7
+      internalID: 8401640017955007666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_NorthWest
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26da6ebec5c20324baee9da3827ca65e
+      internalID: 2035112074399515360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_NorthEast
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ebf088d9e046e488e49d46d50769eb
+      internalID: -4903063931306808581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_SouthWest
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dec154e202d1bd489ceaef581acbc52
+      internalID: 116234314108868233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_SouthEast
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0740742c17190d144b145e4374b1067b
+      internalID: -6601836027281201620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_NorthEast_SouthWest
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14b12d9061f716409e5759c8294e976
+      internalID: 5736297582115230721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_NorthWest_SouthEast
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be1ec5f46dfb644da2280a4e520aa6e
+      internalID: 6364557985114279205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_North
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da0f95219ec3944b64661de1dfc9b8
+      internalID: 8869245865763985547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_East
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aab04120bb87d41b69f828650967ca
+      internalID: -1135172671574193234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_South
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e273197598826144d807d2592e8378ca
+      internalID: -4988625295899326072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_2_West
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df272e333599da4f9ee6b64e159fbda
+      internalID: 4028875011258804003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_3_NorthWest
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212040aaf5b81b849b7b4098a23a1dda
+      internalID: -6720180832067982481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_3_NorthEast
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd854bd484c337449a8e723c8ebe969
+      internalID: 5344305395315538751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sandstone Ground Tile Full_Inner_3_SouthEast
       rect:
         serializedVersion: 2
         x: 160
@@ -577,20 +1228,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7117b8731d1a9fb4caaa40e7a48cd2a4
-      internalID: -6294337077191476380
+      spriteID: 439a3b73fdee5eb4b8d520899d8e1090
+      internalID: -7886231285749315434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sandstone Tile Full_InNE
+      name: Sandstone Ground Tile Full_Inner_3_SouthWest
       rect:
         serializedVersion: 2
         x: 192
@@ -598,665 +1249,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13d572195a1b6ef44a7462bcaef81825
-      internalID: -725460723029713631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InW
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 301fee1a87c2064479ad1fe783773ec9
-      internalID: -1356163902309412752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InMid
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c2993f92ecb44c349a643e92a2520cfc
-      internalID: 3103874966918853943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InE
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77258529757b5af4aaf63b0625579e79
-      internalID: 4376636187249615619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InSW
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60547627ddbd6914e9b74ca86b53d2c0
-      internalID: -4477124641460332059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InS
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6dfb66543c03b554eb20e960cd10af18
-      internalID: -7936920382338817444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InSE
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2af2206bba7430f4385282f31c8fa3e4
-      internalID: 6049601591229740390
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_Single
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbd506a88b510cf44b8ef5ca6e246daa
-      internalID: 1126134133688172453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InOppNWSE
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4e6f7a42be89ff64f884a220f7e906bf
-      internalID: -7682344722955613225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InOppNESW
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddd21bfae0218644e98ac04e7b7c351d
-      internalID: -7682344722955613225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InTripNE
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 224
-        width: 32
-        height: 32
-      alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67bfd6e9124412c46b9f1938d7527e54
-      internalID: 798915920772034172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InTripSE
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3dd1bf5df033a94bb3394431fc8c196
-      internalID: 1093495477911657537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InTripSW
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cfcb271ee87ff8f4d91a9fddd7c18dbc
-      internalID: -4280496744417520766
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_InTripNW
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66d2193e45361184d9e06f96dc66f88b
-      internalID: 555409867626282212
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_NWIn
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 014c3088d5f123e40b2181754b8b85b5
-      internalID: -2078571388194688687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SWIn
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca8a5624353a9b346ab650094d38c291
-      internalID: 6371151280031062624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SEIn
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c08eb2a341bced04db238db6b6cf2d80
-      internalID: -771828598172389269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_NEIn
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f224abf07699f247a3442775dee6546
-      internalID: 6362783207672108427
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_NInW
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33708ffed4fd61b4284fdd6dcf3c784d
-      internalID: -5962136019297342410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_NInE
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a79b3ab968d9a740a4b88b64d30db80
-      internalID: 1894529208983498808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_NInBoth
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1fad1dba33efb4641852a7e5b7415ebd
-      internalID: 7068970582035875581
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SInW
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af25ab7d8e065e04085dfe989d652dd4
-      internalID: 1829724263380282387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SInE
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab53c4b52d1bd8940ba6935d81d0dc1f
-      internalID: -6509306685428707078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_SInBoth
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49d7395bf70053f49a2de133768e8557
-      internalID: 2287097813059009539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_WInN
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60d31bff2e95f9348b760700a430f6d8
-      internalID: -2062510613771654795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_WInS
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 889e7fca573545b47b7a4270d9f07e88
-      internalID: -1309460339915243917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_WInBoth
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28b3ff97a1b15a84cbde91891d8fea2c
-      internalID: 6025882349644523889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_EInN
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 60ae4c6d87fb19549bfac2d98ada8277
-      internalID: -5901270751523780705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_EInS
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 45978ca0f0c393141ab53b5ecaf87128
-      internalID: -5258228076773434749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_EInBoth
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d898750098528247bc7e1437f43d824
-      internalID: 5631641726008039428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_Mid1
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59d7bdb679806d44cabfe788f4b2582a
-      internalID: 1126134133688172453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sandstone Tile Full_Mid2
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fecf18aa5dc00914a93dcbfe10e1de83
-      internalID: -7682344722955613225
+      spriteID: 35286e9595d2fb24b8dfe24c51f57296
+      internalID: 8013888509867258408
       vertices: []
       indices: 
       edges: []
@@ -1264,7 +1264,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b9817d107c32c284bb1525d34fbefc20
     internalID: 0
     vertices: []
     indices: 
