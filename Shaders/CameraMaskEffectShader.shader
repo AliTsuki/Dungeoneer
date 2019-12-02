@@ -4,8 +4,8 @@
 	{
 		_MainTex("Main Tex", 2D) = "white" {}
 		_MaskTex("Mask Tex", 2D) = "white" {}
-		_FogTex("Fog Tex", 2D) = "white" {}
-		_FogIntensity("Fog Intensity", float) = 0.5
+		_FogOfWarTex("Fog of War Tex", 2D) = "white" {}
+		_FogDarken("Fog Darken", Range(0, 1)) = 0.95
 	}
 
 	SubShader
@@ -43,17 +43,58 @@
 
 			sampler2D _MainTex;
 			sampler2D _MaskTex;
-			sampler2D _FogTex;
-			float _FogIntensity;
+			sampler2D _FogOfWarTex;
+			float _FogDarken;
+			float4 _MainTex_TexelSize;
+
+			float4 gaussianBlur(sampler2D tex, float2 uv, float4 size)
+			{
+				// Sample horizontally and vertically with decreasing weights increasing distance
+				float4 col =
+					// Center
+					tex2D(tex, uv + float2(0, 0))
+					// Left
+					+ (tex2D(tex, uv + float2(-size.x,     0)))
+					+ (tex2D(tex, uv + float2(-size.x * 2, 0)) * 0.75)
+					+ (tex2D(tex, uv + float2(-size.x * 3, 0)) * 0.5)
+					+ (tex2D(tex, uv + float2(-size.x * 4, 0)) * 0.25)
+					// Right
+					+ (tex2D(tex, uv + float2(size.x,     0)))
+					+ (tex2D(tex, uv + float2(size.x * 2, 0)) * 0.75)
+					+ (tex2D(tex, uv + float2(size.x * 3, 0)) * 0.5)
+					+ (tex2D(tex, uv + float2(size.x * 4, 0)) * 0.25)
+					// Down
+					+ (tex2D(tex, uv + float2(0, -size.y    )))
+					+ (tex2D(tex, uv + float2(0, -size.y * 2)) * 0.75)
+					+ (tex2D(tex, uv + float2(0, -size.y * 3)) * 0.5)
+					+ (tex2D(tex, uv + float2(0, -size.y * 4)) * 0.25)
+					// Up
+					+ (tex2D(tex, uv + float2(0, size.y    )))
+					+ (tex2D(tex, uv + float2(0, size.y * 2)) * 0.75)
+					+ (tex2D(tex, uv + float2(0, size.y * 3)) * 0.5);
+				    + (tex2D(tex, uv + float2(0, size.y * 4)) * 0.25);
+				// Weighted average
+				col /= 11;
+				return col;
+			}
 
 			fixed4 frag(v2f i) : SV_Target
 			{
+				// Sample render textures
 				float4 col = tex2D(_MainTex, i.uv);
-				float4 fog = tex2D(_FogTex, i.uv);
-				fog *= _FogIntensity;
-				float4 mask = tex2D(_MaskTex, i.uv);
-				col *= fog;
+				float4 mask = (0, 0, 0, 0);
+				float4 fog = tex2D(_FogOfWarTex, i.uv);
+				// Blur mask
+				mask = gaussianBlur(_MaskTex, i.uv, _MainTex_TexelSize);
+				// Grayscale fog texture and darken
+				fog.rgb = ((fog.r + fog.g + fog.b) / 3) * (1 - _FogDarken);
+				// Invert mask and apply to fog
+				fog *= (1 - mask);
+				// Apply mask to color
 				col *= mask;
+				// Apply fog to color
+				col += fog;
+				// Return final color
 				return col;
 			}
 		ENDCG

@@ -1,154 +1,154 @@
 fileFormatVersion: 2
-guid: e5bcc44aeb4b3474aac8ae8a7b8fab61
+guid: 348f03fad2d56454ba4e7ea55c4009a1
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 9156227577462253634
-    second: Crypt Ground Tile Full_Edge_North
+    second: Crypt Wall Tile Full_Edge_North
   - first:
       213: 1808527432814821758
-    second: Crypt Ground Tile Full_Edge_East
+    second: Crypt Wall Tile Full_Edge_East
   - first:
       213: 5589299496529567688
-    second: Crypt Ground Tile Full_Edge_South
+    second: Crypt Wall Tile Full_Edge_South
   - first:
       213: -360791111845519
-    second: Crypt Ground Tile Full_Edge_West
+    second: Crypt Wall Tile Full_Edge_West
   - first:
       213: 6217929284364840133
-    second: Crypt Ground Tile Full_Corner_NorthWest
+    second: Crypt Wall Tile Full_Corner_NorthWest
   - first:
       213: 2903016899169951169
-    second: Crypt Ground Tile Full_Corner_NorthEast
+    second: Crypt Wall Tile Full_Corner_NorthEast
   - first:
       213: -3902916186202065751
-    second: Crypt Ground Tile Full_Corner_SouthEast
+    second: Crypt Wall Tile Full_Corner_SouthEast
   - first:
       213: 8249445457116315679
-    second: Crypt Ground Tile Full_Corner_SouthWest
+    second: Crypt Wall Tile Full_Corner_SouthWest
   - first:
       213: -8749661118950448275
-    second: Crypt Ground Tile Full_Single_North
+    second: Crypt Wall Tile Full_Single_North
   - first:
       213: -8128693760420456239
-    second: Crypt Ground Tile Full_Single_Vertical
+    second: Crypt Wall Tile Full_Single_Vertical
   - first:
       213: -243711754583313956
-    second: Crypt Ground Tile Full_Single_South
+    second: Crypt Wall Tile Full_Single_South
   - first:
       213: 876416141462681983
-    second: Crypt Ground Tile Full_Single_West
+    second: Crypt Wall Tile Full_Single_West
   - first:
       213: -7697348631869167565
-    second: Crypt Ground Tile Full_Single_Horizontal
+    second: Crypt Wall Tile Full_Single_Horizontal
   - first:
       213: -6497380038541728079
-    second: Crypt Ground Tile Full_Single_East
+    second: Crypt Wall Tile Full_Single_East
   - first:
       213: 9167407682577960128
-    second: Crypt Ground Tile Full_Single
+    second: Crypt Wall Tile Full_Single
   - first:
       213: 7269576102394403336
-    second: Crypt Ground Tile Full_Mid_0
+    second: Crypt Wall Tile Full_Mid_0
   - first:
       213: 6849246510913726317
-    second: Crypt Ground Tile Full_Mid_1
+    second: Crypt Wall Tile Full_Mid_1
   - first:
       213: 212994309444410221
-    second: Crypt Ground Tile Full_Mid_2
+    second: Crypt Wall Tile Full_Mid_2
   - first:
       213: 1890031871566478889
-    second: Crypt Ground Tile Full_Edge_North_Inner_Both
+    second: Crypt Wall Tile Full_Edge_North_Inner_Both
   - first:
       213: 2414206144203102043
-    second: Crypt Ground Tile Full_Edge_East_Inner_Both
+    second: Crypt Wall Tile Full_Edge_East_Inner_Both
   - first:
       213: -6000043687475649078
-    second: Crypt Ground Tile Full_Edge_South_Inner_Both
+    second: Crypt Wall Tile Full_Edge_South_Inner_Both
   - first:
       213: -2263936634972999874
-    second: Crypt Ground Tile Full_Edge_West_Inner_Both
+    second: Crypt Wall Tile Full_Edge_West_Inner_Both
   - first:
       213: 6195311410319222163
-    second: Crypt Ground Tile Full_Inner_4_All
+    second: Crypt Wall Tile Full_Inner_4_All
   - first:
       213: -1183355898729092687
-    second: Crypt Ground Tile Full_Corner_NorthWest_Inner
+    second: Crypt Wall Tile Full_Corner_NorthWest_Inner
   - first:
       213: 9098255069747145008
-    second: Crypt Ground Tile Full_Corner_NorthEast_Inner
+    second: Crypt Wall Tile Full_Corner_NorthEast_Inner
   - first:
       213: 2993084399680681604
-    second: Crypt Ground Tile Full_Corner_SouthEast_Inner
+    second: Crypt Wall Tile Full_Corner_SouthEast_Inner
   - first:
       213: 7055915010710288139
-    second: Crypt Ground Tile Full_Corner_SouthWest_Inner
+    second: Crypt Wall Tile Full_Corner_SouthWest_Inner
   - first:
       213: -4183897730781385655
-    second: Crypt Ground Tile Full_Edge_North_Inner_West
+    second: Crypt Wall Tile Full_Edge_North_Inner_West
   - first:
       213: 8189886656362029974
-    second: Crypt Ground Tile Full_Edge_North_Inner_East
+    second: Crypt Wall Tile Full_Edge_North_Inner_East
   - first:
       213: 5085602143837518110
-    second: Crypt Ground Tile Full_Edge_East_Inner_North
+    second: Crypt Wall Tile Full_Edge_East_Inner_North
   - first:
       213: 2474395022351082767
-    second: Crypt Ground Tile Full_Edge_East_Inner_South
+    second: Crypt Wall Tile Full_Edge_East_Inner_South
   - first:
       213: 6539365006412945639
-    second: Crypt Ground Tile Full_Edge_South_Inner_East
+    second: Crypt Wall Tile Full_Edge_South_Inner_East
   - first:
       213: -5801447093852185928
-    second: Crypt Ground Tile Full_Edge_South_Inner_West
+    second: Crypt Wall Tile Full_Edge_South_Inner_West
   - first:
       213: 4512136881190959664
-    second: Crypt Ground Tile Full_Edge_West_Inner_South
+    second: Crypt Wall Tile Full_Edge_West_Inner_South
   - first:
       213: 8401640017955007666
-    second: Crypt Ground Tile Full_Edge_West_Inner_North
+    second: Crypt Wall Tile Full_Edge_West_Inner_North
   - first:
       213: 2035112074399515360
-    second: Crypt Ground Tile Full_Inner_NorthWest
+    second: Crypt Wall Tile Full_Inner_NorthWest
   - first:
       213: -4903063931306808581
-    second: Crypt Ground Tile Full_Inner_NorthEast
+    second: Crypt Wall Tile Full_Inner_NorthEast
   - first:
       213: 116234314108868233
-    second: Crypt Ground Tile Full_Inner_SouthWest
+    second: Crypt Wall Tile Full_Inner_SouthWest
   - first:
       213: -6601836027281201620
-    second: Crypt Ground Tile Full_Inner_SouthEast
+    second: Crypt Wall Tile Full_Inner_SouthEast
   - first:
       213: 5736297582115230721
-    second: Crypt Ground Tile Full_Inner_2_NorthEast_SouthWest
+    second: Crypt Wall Tile Full_Inner_2_NorthEast_SouthWest
   - first:
       213: 6364557985114279205
-    second: Crypt Ground Tile Full_Inner_2_NorthWest_SouthEast
+    second: Crypt Wall Tile Full_Inner_2_NorthWest_SouthEast
   - first:
       213: 8869245865763985547
-    second: Crypt Ground Tile Full_Inner_2_North
+    second: Crypt Wall Tile Full_Inner_2_North
   - first:
       213: -1135172671574193234
-    second: Crypt Ground Tile Full_Inner_2_East
+    second: Crypt Wall Tile Full_Inner_2_East
   - first:
       213: -4988625295899326072
-    second: Crypt Ground Tile Full_Inner_2_South
+    second: Crypt Wall Tile Full_Inner_2_South
   - first:
       213: 4028875011258804003
-    second: Crypt Ground Tile Full_Inner_2_West
+    second: Crypt Wall Tile Full_Inner_2_West
   - first:
       213: -6720180832067982481
-    second: Crypt Ground Tile Full_Inner_3_NorthWest
+    second: Crypt Wall Tile Full_Inner_3_NorthWest
   - first:
       213: 5344305395315538751
-    second: Crypt Ground Tile Full_Inner_3_NorthEast
+    second: Crypt Wall Tile Full_Inner_3_NorthEast
   - first:
       213: -7886231285749315434
-    second: Crypt Ground Tile Full_Inner_3_SouthEast
+    second: Crypt Wall Tile Full_Inner_3_SouthEast
   - first:
       213: 8013888509867258408
-    second: Crypt Ground Tile Full_Inner_3_SouthWest
+    second: Crypt Wall Tile Full_Inner_3_SouthWest
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -233,7 +233,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_North
+      name: Crypt Wall Tile Full_Edge_North
       rect:
         serializedVersion: 2
         x: 32
@@ -254,7 +254,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_East
+      name: Crypt Wall Tile Full_Edge_East
       rect:
         serializedVersion: 2
         x: 64
@@ -275,7 +275,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_South
+      name: Crypt Wall Tile Full_Edge_South
       rect:
         serializedVersion: 2
         x: 32
@@ -296,7 +296,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_West
+      name: Crypt Wall Tile Full_Edge_West
       rect:
         serializedVersion: 2
         x: 0
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_NorthWest
+      name: Crypt Wall Tile Full_Corner_NorthWest
       rect:
         serializedVersion: 2
         x: 0
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_NorthEast
+      name: Crypt Wall Tile Full_Corner_NorthEast
       rect:
         serializedVersion: 2
         x: 64
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_SouthEast
+      name: Crypt Wall Tile Full_Corner_SouthEast
       rect:
         serializedVersion: 2
         x: 64
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_SouthWest
+      name: Crypt Wall Tile Full_Corner_SouthWest
       rect:
         serializedVersion: 2
         x: 0
@@ -401,7 +401,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_North
+      name: Crypt Wall Tile Full_Single_North
       rect:
         serializedVersion: 2
         x: 96
@@ -422,7 +422,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_Vertical
+      name: Crypt Wall Tile Full_Single_Vertical
       rect:
         serializedVersion: 2
         x: 96
@@ -443,7 +443,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_South
+      name: Crypt Wall Tile Full_Single_South
       rect:
         serializedVersion: 2
         x: 96
@@ -464,7 +464,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_West
+      name: Crypt Wall Tile Full_Single_West
       rect:
         serializedVersion: 2
         x: 0
@@ -485,7 +485,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_Horizontal
+      name: Crypt Wall Tile Full_Single_Horizontal
       rect:
         serializedVersion: 2
         x: 32
@@ -506,7 +506,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single_East
+      name: Crypt Wall Tile Full_Single_East
       rect:
         serializedVersion: 2
         x: 64
@@ -527,7 +527,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Single
+      name: Crypt Wall Tile Full_Single
       rect:
         serializedVersion: 2
         x: 96
@@ -548,7 +548,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Mid_0
+      name: Crypt Wall Tile Full_Mid_0
       rect:
         serializedVersion: 2
         x: 32
@@ -569,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Mid_1
+      name: Crypt Wall Tile Full_Mid_1
       rect:
         serializedVersion: 2
         x: 256
@@ -590,7 +590,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Mid_2
+      name: Crypt Wall Tile Full_Mid_2
       rect:
         serializedVersion: 2
         x: 288
@@ -611,7 +611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_North_Inner_Both
+      name: Crypt Wall Tile Full_Edge_North_Inner_Both
       rect:
         serializedVersion: 2
         x: 160
@@ -632,7 +632,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_East_Inner_Both
+      name: Crypt Wall Tile Full_Edge_East_Inner_Both
       rect:
         serializedVersion: 2
         x: 192
@@ -653,7 +653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_South_Inner_Both
+      name: Crypt Wall Tile Full_Edge_South_Inner_Both
       rect:
         serializedVersion: 2
         x: 160
@@ -674,7 +674,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_West_Inner_Both
+      name: Crypt Wall Tile Full_Edge_West_Inner_Both
       rect:
         serializedVersion: 2
         x: 128
@@ -695,7 +695,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_4_All
+      name: Crypt Wall Tile Full_Inner_4_All
       rect:
         serializedVersion: 2
         x: 160
@@ -716,7 +716,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_NorthWest_Inner
+      name: Crypt Wall Tile Full_Corner_NorthWest_Inner
       rect:
         serializedVersion: 2
         x: 0
@@ -737,7 +737,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_NorthEast_Inner
+      name: Crypt Wall Tile Full_Corner_NorthEast_Inner
       rect:
         serializedVersion: 2
         x: 96
@@ -758,7 +758,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_SouthEast_Inner
+      name: Crypt Wall Tile Full_Corner_SouthEast_Inner
       rect:
         serializedVersion: 2
         x: 96
@@ -779,7 +779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Corner_SouthWest_Inner
+      name: Crypt Wall Tile Full_Corner_SouthWest_Inner
       rect:
         serializedVersion: 2
         x: 0
@@ -800,7 +800,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_North_Inner_West
+      name: Crypt Wall Tile Full_Edge_North_Inner_West
       rect:
         serializedVersion: 2
         x: 32
@@ -821,7 +821,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_North_Inner_East
+      name: Crypt Wall Tile Full_Edge_North_Inner_East
       rect:
         serializedVersion: 2
         x: 64
@@ -842,7 +842,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_East_Inner_North
+      name: Crypt Wall Tile Full_Edge_East_Inner_North
       rect:
         serializedVersion: 2
         x: 96
@@ -863,7 +863,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_East_Inner_South
+      name: Crypt Wall Tile Full_Edge_East_Inner_South
       rect:
         serializedVersion: 2
         x: 96
@@ -884,7 +884,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_South_Inner_East
+      name: Crypt Wall Tile Full_Edge_South_Inner_East
       rect:
         serializedVersion: 2
         x: 64
@@ -905,7 +905,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_South_Inner_West
+      name: Crypt Wall Tile Full_Edge_South_Inner_West
       rect:
         serializedVersion: 2
         x: 32
@@ -926,7 +926,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_West_Inner_South
+      name: Crypt Wall Tile Full_Edge_West_Inner_South
       rect:
         serializedVersion: 2
         x: 0
@@ -947,7 +947,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Edge_West_Inner_North
+      name: Crypt Wall Tile Full_Edge_West_Inner_North
       rect:
         serializedVersion: 2
         x: 0
@@ -968,7 +968,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_NorthWest
+      name: Crypt Wall Tile Full_Inner_NorthWest
       rect:
         serializedVersion: 2
         x: 32
@@ -989,10 +989,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_NorthEast
+      name: Crypt Wall Tile Full_Inner_NorthEast
       rect:
         serializedVersion: 2
-        x: 64
+        x: 63
         y: 320
         width: 32
         height: 32
@@ -1010,7 +1010,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_SouthWest
+      name: Crypt Wall Tile Full_Inner_SouthWest
       rect:
         serializedVersion: 2
         x: 32
@@ -1031,7 +1031,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_SouthEast
+      name: Crypt Wall Tile Full_Inner_SouthEast
       rect:
         serializedVersion: 2
         x: 64
@@ -1052,7 +1052,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_NorthEast_SouthWest
+      name: Crypt Wall Tile Full_Inner_2_NorthEast_SouthWest
       rect:
         serializedVersion: 2
         x: 192
@@ -1073,7 +1073,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_NorthWest_SouthEast
+      name: Crypt Wall Tile Full_Inner_2_NorthWest_SouthEast
       rect:
         serializedVersion: 2
         x: 160
@@ -1094,7 +1094,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_North
+      name: Crypt Wall Tile Full_Inner_2_North
       rect:
         serializedVersion: 2
         x: 128
@@ -1115,7 +1115,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_East
+      name: Crypt Wall Tile Full_Inner_2_East
       rect:
         serializedVersion: 2
         x: 160
@@ -1136,7 +1136,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_South
+      name: Crypt Wall Tile Full_Inner_2_South
       rect:
         serializedVersion: 2
         x: 224
@@ -1157,7 +1157,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_2_West
+      name: Crypt Wall Tile Full_Inner_2_West
       rect:
         serializedVersion: 2
         x: 192
@@ -1178,7 +1178,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_3_NorthWest
+      name: Crypt Wall Tile Full_Inner_3_NorthWest
       rect:
         serializedVersion: 2
         x: 192
@@ -1199,7 +1199,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_3_NorthEast
+      name: Crypt Wall Tile Full_Inner_3_NorthEast
       rect:
         serializedVersion: 2
         x: 160
@@ -1220,7 +1220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_3_SouthEast
+      name: Crypt Wall Tile Full_Inner_3_SouthEast
       rect:
         serializedVersion: 2
         x: 160
@@ -1241,11 +1241,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Crypt Ground Tile Full_Inner_3_SouthWest
+      name: Crypt Wall Tile Full_Inner_3_SouthWest
       rect:
         serializedVersion: 2
         x: 192
-        y: 224
+        y: 225
         width: 32
         height: 32
       alignment: 0

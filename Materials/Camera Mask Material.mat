@@ -48,6 +48,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FogOfWarTex:
+        m_Texture: {fileID: 8400000, guid: 33bdab33f109560468f4f87683c1b287, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FogTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 8400000, guid: 565b684d2838a134d99ea91e02f5a251, type: 2}
         m_Scale: {x: 1, y: 1}
@@ -96,9 +104,12 @@ Material:
     - _EnvironmentReflections: 1
     - _FlipbookBlending: 0
     - _FlipbookMode: 0
+    - _FogDarken: 0.95
+    - _FogIntensity: 0.5
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _GrayscaleCutoff: 0.008
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
