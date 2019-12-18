@@ -11,9 +11,9 @@ public class ViewRaycaster : MonoBehaviour
     public LayerMask RaycastLayer;
     public float RayVertexOffset = 0.01f;
     public float EdgePenetration = 0.5f;
-    public float MaxRayDistance = 20;
+    public float MaxRayDistance = 15;
     [Range(1, 4)]
-    public int WallRayStep = 2;
+    public int WallRayStep = 4;
     public bool DrawDebugRays = true;
     public int NumRays = 0;
     // Private fields

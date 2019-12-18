@@ -2,11 +2,11 @@
 
 public class PlayerController : MonoBehaviour
 {
-    public float MoveSpeed = 8f;
+    public float MoveSpeed = 1f;
+    public Vector2 Velocity { get; private set; } = new Vector2();
     private Rigidbody2D rigidBody;
     private CapsuleCollider2D playerCollider;
     private PlayerInput input;
-    private Vector2 velocity = new Vector2();
 
     // Start is called before the first frame update
     private void Start()
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     //
     private void ProcessMovement()
     {
-        this.velocity = new Vector2(this.input.Horizontal * this.MoveSpeed, this.input.Vertical * this.MoveSpeed);
-        this.rigidBody.velocity = this.velocity;
+        this.Velocity = new Vector2(this.input.Horizontal * this.MoveSpeed, this.input.Vertical * this.MoveSpeed);
+        this.rigidBody.velocity = this.Velocity;
     }
 }
