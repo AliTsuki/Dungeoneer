@@ -3,14 +3,16 @@
 [DefaultExecutionOrder(-100)]
 public class PlayerInput : MonoBehaviour
 {
+    // Inputs
     public float Horizontal;
     public float Vertical;
     public bool UseRightLight;
     public bool UseRightHeavy;
     public bool UseLeftLight;
     public bool UseLeftHeavy;
-
+    // Other fields
     private bool ReadyToClear;
+
 
     // Start is called before the first frame update
     private void Start()

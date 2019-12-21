@@ -3,7 +3,7 @@
 public class PlayerController : MonoBehaviour
 {
     public float MoveSpeed = 1f;
-    public Vector2 Velocity { get; private set; } = new Vector2();
+    public Vector2 Velocity = new Vector2();
     private Rigidbody2D rigidBody;
     private CapsuleCollider2D playerCollider;
     private PlayerInput input;
@@ -25,7 +25,12 @@ public class PlayerController : MonoBehaviour
     //
     private void ProcessMovement()
     {
-        this.Velocity = new Vector2(this.input.Horizontal * this.MoveSpeed, this.input.Vertical * this.MoveSpeed);
+        this.Velocity = new Vector2(this.input.Horizontal, this.input.Vertical);
+        if(this.Velocity.magnitude > 1f)
+        {
+            this.Velocity = this.Velocity.normalized; 
+        }
+        this.Velocity *=  this.MoveSpeed;
         this.rigidBody.velocity = this.Velocity;
     }
 }
